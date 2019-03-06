@@ -1,0 +1,41 @@
+print("Hello, I am Gleeza. I can give you advice if you are unsure which video game you want to get.")
+print("Tell me your favorite genres.")
+genre = input() 
+if genre == "racing":
+    print("Which consoles do you use?")
+    console = input()
+    if console == "nintendo switch":
+      print("Based on your intersts, Mario Kart 8 Deluxe will be a good game for you to get.")
+    elif console == "ps4":
+      print("Based on your intersts, Need for Speed Payback will be a good game for you to get.")
+    elif console == "xbox one":
+      print("Based on your intersts, Forza Horizon 4 will be a good game for you to get.")
+elif genre == "shooting":
+    print("Which consoles do you use?")
+    console = input()
+    if console == "ps4" :
+      print("Based on your intersts, Rainbow Six Siege will be a good game for you to get.")
+    elif console == "nintendo switch" :
+      print("Based on your intersts, Doom will be a good game for you to get.") 
+    elif console == "xbox one" :
+      print("Based on your intersts, Halo 5: Guardians will be a good game for you to get.") 
+    else :
+      print("Based on your intersts, Fortnite will be a good game for you to get.")
+elif genre == "adventure" :
+    print ("Which consoles do you use?")
+    console = input()
+    if console == "ps4" :
+      print("Based on your intersts, Spiderman will be a good game for you to get.")
+    elif console == "nintendo switch" :
+      print("Based on your intersts, Doom will be a good game for you to get.") 
+    elif console == "xbox one" :
+      print("Based on your intersts, Red Dead Redemption 2 will be a good game for you to get.")
+elif genre == "soccer games" :
+      print ("Which consoles do you use?")
+      console = input()
+      if console == "ps4" :
+        print("Based on your intersts, Fifa 19 will be a good game for you to get.")
+      elif console == "xbox one" :
+        print("Based on your interests, PES 18 will be a good game for you to get.")
+else :
+  print("Oh, ok.")
